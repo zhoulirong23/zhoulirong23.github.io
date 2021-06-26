@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>功能展示页面</title>
+    <style>
+        a{
+            text-decoration: none;
+        }
+        a:link{
+            color: dodgerblue;
+        }
+        a:hover{
+            color: red;
+        }
+    </style>
+</head>
+<div>
+
+</div>
+<frameset rows = "5%,10%,80%,5%">
+    <frame name = "navigate_teacher" src = "navigat_admin.jsp"/>
+    <frame name = "top" src = "/ComManage/top.html"/>
+    <frameset cols = "250px,*">
+        <frame name = "left" src = "/ComManage/left.jsp"/>
+        <frame name = "right" style="background-color: antiquewhite"/>
+    </frameset>
+    <frame name = "bottom" src="bottom.html"/>
+</frameset>
+</html>
